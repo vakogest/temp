@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 
 		
 		// Concatenate all the input values into a string to write on file.
-		sprintf(str_file,"%s - %s - %d - %ld - %ld\n", first_name, last_name, age, amka, time(NULL));
+		sprintf(str_file,"%s - %s - %d - %ld\n", first_name, last_name, age, amka);
 		fputs(str_file, fp);
 
 		// Ask the user if he would like to add another user.
